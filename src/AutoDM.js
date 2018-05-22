@@ -31,13 +31,13 @@ const SendMessage = user => {
 };
 const GenerateMessage = name => {
   const days = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday"
+    "Domingo",
+    "Lunes",
+    "Martes",
+    "Miercoles",
+    "Jueves",
+    "Viernes",
+    "Sábado"
   ];
   const d = new Date();
   const dayName = days[d.getDay()];
