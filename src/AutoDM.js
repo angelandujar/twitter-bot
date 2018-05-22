@@ -41,7 +41,7 @@ const GenerateMessage = name => {
   ];
   const d = new Date();
   const dayName = days[d.getDay()];
-  return `Hola ${name} \n Feliz ${dayName} 😊 Como estas el día de hoy? `;
+  return `Hola ${name} \n Gran ${dayName} 😃 Como le va el día de hoy? `;
 };
 
 module.exports = AutoDM;
